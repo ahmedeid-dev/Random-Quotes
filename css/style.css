@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+#qoute{
+    height: 100vh;
+    background-image:linear-gradient(#00000055,#00000099), url("../images/1.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+#qoute h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+#qoute p{
+    font-size: 2rem;
+    margin-block:2rem;
+}
+#qoute button{
+    border: 1px solid black;
+    background-color:#fff;
+    color: black;
+    font-size: 2rem;
+    padding: 25px 70px;
+}
+#qoute button:active{
+    color: red !important;
+}
